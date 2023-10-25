@@ -1,0 +1,35 @@
+@media screen and (min-width: 1600px) {
+    .vetor_branco{
+        display: none;
+    }
+    }
+    @media screen and (max-width: 1230px) {
+        .header-anchors {
+          gap: 5px;
+        }
+        .conteudo_total{
+            padding-left: 793px;
+    
+        }
+      }
+      @media screen and (max-width: 1024px) {
+        .header-content {
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .header-anchors {
+          margin-top: 15px;
+          gap: 25px;
+        }
+        .header-button {
+          display: none;
+        }
+        .conteudo_total{
+            padding-left: 508px;
+        }
+        .texto_o_problema .P1, .P2, .P3{
+            width: 317px;
+        }
+}

@@ -1,0 +1,237 @@
+.conteudo_total_3{
+    display: flex;
+    flex-direction: column;
+}
+.section3{
+    height: 1673px;
+    background-color: #F9F9F9;
+}
+.conteudo_mais_texto{
+    margin: 0 auto;
+    display: flex;
+}
+.dev_container2_img{
+    width: 538.721px;
+    height: 769.972px;
+}
+.texto_o_problema{
+    margin-top: 130px;
+    margin-left: 72px;
+    width: 393px;
+    h2{
+    font-size: 40px;
+    background: var(--Gradient-Text, linear-gradient(88deg, #1A7FBD 1.01%, #6CBFF2 100.21%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 18px;
+    }
+    p{
+        text-align: left;
+    }
+    .P1{
+        font-size: 18px;
+        font-weight: bolder;
+        margin-bottom: 8px;
+    }
+    .P2{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .P2, .P3{
+        font-size: 14px;
+    }
+    .P3{
+        font-weight: bolder;
+    }
+}
+.div_section3{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.quadrados{
+    position: relative;
+    top: -166px;
+    display: flex;
+}
+.quadrado{
+    border-radius: 12px;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 80px 100px rgba(0, 0, 0, 0.111);
+    margin: 5px;
+    width: 327px;
+    height: 228px;
+    background-color: #FBFBFB;
+    h3{
+        font-size: 30px;
+        margin-top: 41px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    p{
+        width: 232px;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+.titulo_jornada{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.titulo_sua_jornada{
+    h2{
+        margin: 0 20px;
+        font-size: 40px;
+        background: var(--Gradient-Text, linear-gradient(88deg, #1A7FBD 1.01%, #6CBFF2 100.21%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+.linhad{
+    width: 371px;
+}
+#linhah{
+    img {
+        -webkit-transform: scaleX(-1);
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+}
+.jornada{
+    width: 1117px;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.etapa{
+    padding: 13px 13px 13px 15px;
+    display: flex;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    background: #1A7FBD;
+    width: 320px;
+    height: 77px;
+    border-radius: 12px;    
+    border: 1px solid #E8E8E8;
+}
+.branco{
+    width: 51px;
+    height: 51px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 15px;
+}
+.texto{
+    margin-top:6px ;
+    width: 203px;
+    height: 36px;
+    p{
+        color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+}
+#b1{
+    background-image: url('../Assets_Netuno/icones/calendario.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#b2{
+    background-image: url('../Assets_Netuno/icones/medalha.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#b3{
+    background-image: url('../Assets_Netuno/icones/home.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#b4{
+    background-image: url('../Assets_Netuno/icones/group.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#b5{
+    background-image: url('../Assets_Netuno/icones/target.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#b6{
+    background-image: url('../Assets_Netuno/icones/calendario.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.botao_jornada{
+    border-radius: 12px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 98px;
+    width: 459px;
+    height: 70px;
+    flex-shrink: 0;     
+    background-color: rgb(0, 0, 0);
+   img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+   }
+    a{
+    p{
+        
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+            span{
+            color: #319CDD;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-right: 14px;
+
+}
+}
+}
+}
+.conteudo_jornada{
+    vertical-align: middle;
+    margin: auto auto;
+    display: flex;
+  img{
+    margin: auto 0;
+    position: relative;
+    top: 2px;
+  }
+    
+}
+
+.vetor_curvilino_azul{
+    margin: 18px auto 162px auto;
+
+    width: 206px;
+    height: 30px;
+    img{
+        padding-bottom: 162px;
+    }
+}

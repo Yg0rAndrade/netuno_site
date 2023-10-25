@@ -1,0 +1,50 @@
+#objetivo{
+    height: 428px;
+}
+.title_obj{
+    margin-top: 57px ;
+    margin-bottom:48px ;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.2px;
+
+}
+
+.objetivos{
+    margin-right:6px ;
+    padding: 41px 48px 43px 47px;
+    width: 327px;
+    height: 228px;
+    border-radius: 12px;
+    border: 1px solid #75C4F5;
+    background-color: #FBFBFB;
+    h3{
+        color: #000;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.9px;
+        margin-bottom: 16px;
+    }
+    p{
+        text-align: center;
+        justify-content: center;
+        color: #000;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+.todososobjetivos{
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+}

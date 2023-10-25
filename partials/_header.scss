@@ -1,0 +1,36 @@
+header{
+    max-width: 1440px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+.linha{
+    padding: 0;
+}
+.header-content{
+    padding: 0 133px;       
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: white;
+}
+.header-anchors{
+    display: flex;
+    gap: 51px;
+}
+.header-button{
+    padding: 8px 24px;
+    border-radius: 6px;
+    background-color: black;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 35.39px;
+}
+
+

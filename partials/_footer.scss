@@ -1,0 +1,92 @@
+
+footer{
+    background-color: black;
+    display: flex;
+    height: 314px;
+    padding: 96px 266px 97px 265px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.footer{
+    display: flex;
+}
+.conteudo1_do_footer{
+    display: flex;
+    flex-direction: column;
+}
+.icones_do_footer{
+    display: flex;
+    width: 79px;
+    height: 16px;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.icone_footer{
+    height: 16px;
+    width: 16px;
+}
+.logo_do_slogan{
+    width: 187px;
+    margin-bottom: 18px;
+}
+
+.direitos{
+    color: #B9B9B9;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 9px;
+}
+.processo_seletivo{
+    display: flex;
+    width: 179px;
+    align-items: center;
+    background: #FFF;
+    height: 43px;
+    margin-left:138px;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: 1px solid #1A7BB6;
+    background: #FFF;
+    .a{
+        width: max-content;
+        margin:  auto auto;
+        a{
+            color: #000;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.48px;
+            color: black;
+            font-size: 16px;
+        }
+    }
+  
+}
+.lista_para_partes_do_site{
+    margin-left: 58px;
+    display: flex;
+    ul{
+        list-style: none;
+        margin-right: 80px ;
+        
+        li{
+            margin-bottom: 13px;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            letter-spacing: -0.48px;
+        }
+    }
+    .ul2{
+        margin-right: 0;
+        margin-left: 80px;
+    }
+}
+.linha_footer{
+    width: 1px;
+height: 121px;
+}

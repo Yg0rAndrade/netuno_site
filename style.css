@@ -9,7 +9,7 @@ html{
 }
 
 header {
-  max-width: 1440px;
+  width: 1520px;
   padding-top: 25px;
   margin: 0 auto;
 }
@@ -47,9 +47,15 @@ a {
   width: 175px;
   height: 35.39px;
 }
+#logo01{
+  width: 175px;
+  max-height: 35.395px;
+  width: auto;
+  height: auto;
+}
 
 .section1 {
-  max-width: 1520px;
+  width: 1520px;
   margin: 0 auto;
   background-image: url("Assets_Netuno/bannertopo.png");
   background-repeat: no-repeat;
@@ -68,7 +74,6 @@ a {
 }
 */
 .conteudo_total {
-  /*  overflow: hidden;*/
   padding-left: 912px;
   padding-top: 41px;
   height: 100%;
@@ -908,37 +913,6 @@ footer {
   height: 121px;
 }
 
-@media screen and (minwidth: 1600px) {
-  .vetor_branco {
-    display: none;
-  }
-}
-@media screen and (max-width: 1230px) {
-  .header-anchors {
-    gap: 5px;
-  }
-  .conteudo_total {
-    padding-left: 793px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .header-content {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .header-anchors {
-    margin-top: 15px;
-    gap: 25px;
-  }
-  .header-button {
-    display: none;
-  }
-  .conteudo_total {
-    padding-left: 508px;
-  }
-}
 body {
   /*
   overflow-y: scroll;
@@ -974,4 +948,285 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}
+@media (max-width:768px){
+  body{
+  margin: 0 auto;
+  }
+  header{
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.header-content {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo{
+  margin-bottom: 10px;
+}
+.header-anchors {
+display: none;
+}
+.ancora_preta{
+  display: none;
+}
+.section1 {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(Assets_Netuno/bannertopo.png);
+  background-repeat: no-repeat;
+  background-position: -279px;
+  height: 1000px;
+}
+.conteudo_total {
+  padding-left: 0px;
+  padding-top: 41px;
+  width: 320px;
+  height: 100%;
+  margin: 0 auto;
+}
+.vetor_branco{
+  display: none;
+}
+.retangulo{
+
+  width: 300px;
+  margin-left: 0;
+}
+.input-wrapper input {
+  width: 250px;
+}
+.input-field, .input-select {
+  width: 250px;
+}
+.custom-select-arrow {
+  right: -38px;
+  top: 15%;
+}
+.azul{
+  width: 300px;
+  height: 218px;
+}
+.linha_cinza{
+  display: none;
+}
+.enviar {
+  display: flex;
+  flex-direction:column ;
+  width: 250px;
+  margin: 0;
+  margin-left:25px;
+}
+.botao_enviar {
+  width: 250px;
+}
+.form label {
+  margin-right: 5px;
+}
+.section2 {
+  height: 100%;
+}
+.dev {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-left: 0;
+  margin-right: 0px;
+}
+.dev2 {
+  margin-left: 10px;
+  padding-top: 108px;
+  margin: 0 auto;
+  flex: 1;
+  width: 320px;
+  height: 461px;
+}
+.dev2 p {
+  width: 300px;
+  color: white;
+  margin-bottom: 50px;
+}
+.section3 {
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100%;
+  background-color: #1A7FBD;
+  width: 320px;
+}
+.div_section3{
+  width: 320px;
+  margin: 0;
+}
+.conteudo_mais_texto{
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+.dev_container2_img {
+  position: relative;
+  left: -50px;
+  width: 538.721px;
+  height: 769.972px;
+}
+.texto_o_problema {
+  margin: 0 auto;
+  margin-top: 58px;
+  width: 300px;
+}
+.texto_o_problema h2 {
+  font-size: 40px;
+  background: var(--Gradient-Text, linear-gradient(88deg, #ffffff 1.01%, #6CBFF2 100.21%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 18px;
+}
+.texto_o_problema p {
+  text-align: left;
+  color: white;
+  text-shadow: 1px 1px #0000001b;
+}
+.texto_o_problema .P1 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+.texto_o_problema .P2 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.texto_o_problema .P2, .texto_o_problema .P3 {
+  font-size: 14px;
+}
+.texto_o_problema .P3 {
+  font-weight: bolder;
+}
+.quadrados {
+  width: 300px;
+  position: relative;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.quadrado {
+  border-radius: 12px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 80px 100px;
+  margin: 5px;
+  width: 300px;
+  height: 228px;
+  background-color: rgb(251, 251, 251);
+section{
+  width: 100vw;
+}
+}
+.titulo_jornada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+}
+.titulo_sua_jornada h2 {
+  margin: 0 20px;
+  font-size: 40px;
+  background: var(--Gradient-Text, linear-gradient(88deg, #ffffff 1.01%, #aecddf 100.21%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jornada {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.etapa {
+  padding: 13px 13px 13px 15px;
+  display: flex;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  background: #0e3750;
+  width: 290px;
+  height: 85px;
+  border-radius: 12px;
+  border: 1px solid #E8E8E8;
+}
+.botao_jornada {
+  border-radius: 12px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 98px;
+  width: 300px;
+  height: 70px;
+  flex-shrink: 0;
+  background-color: rgb(0, 0, 0);
+}
+.botao_jornada a p {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 255px;
+}
+#objetivo {
+  height: 428px;
+  height: 100%;
+}
+.objetivos {
+margin-bottom: 15px;
+}
+.todososobjetivos {
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+footer {
+  display: flex;
+  height: 100%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100%;
+  width: 300px;
+}
+.conteudo1_do_footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.processo_seletivo {
+  margin-top: 20px;
+  margin-left: 0;
+}
+.lista_para_partes_do_site {
+  margin-top: 20px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.linha_footer {
+  display: none;
+}
+.lista_para_partes_do_site .ul2 {
+  margin-top: 80px;
+  margin-right: 0;
+  margin-left: 0px;
+}
+}
